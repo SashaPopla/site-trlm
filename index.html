@@ -4,12 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>trlm.ua</title>
+    <title>trlm</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./img/logo.png" alt="logo">
+                </a>
+            </div>
 
+            <div class="req-info">
+                <div class="selected">
+                    <select name="select" id="select">
+                        <option value="value1" selected>Офис на Малиновского</option>
+                        <option value="value2">Офис на Хлебной</option>
+                        <option value="value3">Офис на Киевськой</option>
+                    </select>
+                </div>
+
+                <div class="catalog-btn">
+                    <button class="btn-catalog">
+                        <div class="burger">
+                            <span></span>
+                        </div>
+                        <p>Каталог</p>
+                    </button>
+                </div>
+            </div>
+
+            <div class="info-profile">
+                <div class="inf-prof">
+                    <div class="info">
+                        <div class="phone">
+                            <a href="tel:8-800-550-19-80">8-800-550-19-80</a>
+                        </div>
+
+                        <div class="navbur">
+                            <ul class="menu">
+                                <li class="menu-item">
+                                    <a class="menu-link active" href="#">Подбор запчастей</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a class="menu-link" href="#">Доставка</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a class="menu-link" href="#">Как купить</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a class="menu-link" href="#">Оплата</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a class="menu-link" href="#">Акции</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a class="menu-link" href="#">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="profile">
+                        <div class="user">
+                            <a href="#"><img src="./icon/user.png" alt="user">Войти</a>
+                        </div>
+
+                        <div class="empty">
+                            <a href="#"><img src="./icon/empty.png" alt="empty">Корзина</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-search">
+                    <form action="#" method="get">
+                        <div class="btn-submit"></div>
+                        <input type="text" name="seach" id="seach" placeholder="Что ищите?">
+                    </form>
+                </div>
+            </div>
+        </div>
     </header>
 
     <section class="wrapper">
