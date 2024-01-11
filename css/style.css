@@ -347,7 +347,192 @@ a{
     width: 460px;
     height: 216px;
     background-color: #fff;
+    display: flex;
+    padding-top: 32px;
     z-index: 1;
+}
+
+.info-item .number{
+    margin: 0px 9px 148px 16px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 36px;
+    color: rgba(34, 34, 34, 0.20);
+}
+
+.info-item .other-info{
+    width: 360px;
+    margin-bottom: 32px;
+}
+
+.info-item .other-info .info-subheader{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.info-item .other-info .descr{
+    margin-top: 8px;
+    width: 357px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-item .other-info .descr > p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.info-item .other-info .descr .phone{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.info-item .other-info .btn{
+    margin-top: 8px;
+    display: flex;
+    width: 360px;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3CA255;
+    border-radius: 4px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    background-color: transparent;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.8;
+    }
+}
+
+.info-item .other-info .btn > .fa-icon{
+    width: 30px;
+    height: 29.4px;
+    background-image: url(../icon/Vector.png);
+    margin-right: 8px;
+}
+
+.info-item .other-info .btn > a{
+    color: #3CA255;
+}
+
+.info-item .other-info .btn-model{
+    border: 1px solid #1C69D4;
+    color: #1C69D4;
+}
+
+.wrapper .container .useful-info{
+    margin: 28px 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 356px;
+}
+
+.useful-info .new{
+    width: 460px;
+    background-image: url(../img/new.png);
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.useful-info .new .product{
+    margin: 39px 0px 0px 40px;
+    color: #fff;
+}
+
+.useful-info .new .product > p{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.block-link{
+    margin: 0px 0px 42px 40px;
+}
+
+.block-link > a{
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    &:hover{
+        opacity: 0.8;
+    }
+}
+
+.block-link > a::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+}
+
+.useful-info .discounts{
+    width: 960px;
+    background-image: url(../img/discounts.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.useful-info .discounts .discounts-where{
+    display: flex;
+    margin: 35px 40px 0px 40px;
+    justify-content: space-between;
+}
+
+.useful-info .discounts .discounts-where > p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.useful-info .discounts .discounts-where .button{
+    width: 164px;
+    height: 50px;
+    background-color: #F40;
+    text-align: center;
+    padding-top: 13px;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.8;
+    }
+}
+
+.useful-info .discounts .discounts-where .button > a{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.discounts-how{
+    margin: 35px 0px 57px 40px;
+    width: 205px;
+}
+
+.discounts-how p{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
 }
 
 .footer{
