@@ -212,7 +212,8 @@ a{
 }
 
 .wrapper .container{
-    margin: 0 auto;
+    padding-top: 40px;
+    margin: 0px auto;
     width: 1820px;
     height: 927px;
 }
@@ -431,11 +432,11 @@ a{
 }
 
 .wrapper .container .useful-info{
-    margin: 28px 0px;
     display: flex;
     justify-content: center;
     width: 100%;
     height: 356px;
+    padding-bottom: 28px;
 }
 
 .useful-info .new{
@@ -585,4 +586,8 @@ a{
     &:hover{
         opacity: .8;
     }
+}
+
+@media (max-width: 1600){
+    
 }
